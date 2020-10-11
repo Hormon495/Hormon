@@ -45,7 +45,7 @@ public class Player_movement : MonoBehaviour
         transform.localScale = localScale;
     }
     void OnCollisionEnter2D(Collision2D col) {
-        Debug.Log("Player has coliided with " + col.collider.name);
+        Debug.Log("Player has collided with " + col.collider.name);
         if (col.gameObject.tag == "Ground") {
             isGrounded = true;
         }
