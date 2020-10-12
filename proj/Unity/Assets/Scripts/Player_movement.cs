@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player_movement : MonoBehaviour
 {
@@ -49,5 +50,14 @@ public class Player_movement : MonoBehaviour
         if (col.gameObject.tag == "Ground") {
             isGrounded = true;
         }
+
     }
+    void OnTriggerEnter2D(Collider2D trig)
+    {
+        if (trig.gameObject.tag == "HoleSceneChange")
+        {
+            SceneManager.LoadScene("Spinal Cord");
+        }
+    }
+
 }
