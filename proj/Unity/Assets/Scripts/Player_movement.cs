@@ -10,6 +10,12 @@ public class Player_movement : MonoBehaviour
     public int playerJumpPower = 1300;
     private float moveX;
     public bool isGrounded;
+    public Vector3 respawnPoint;
+
+    void Start()
+    {
+        respawnPoint = transform.position;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -57,6 +63,14 @@ public class Player_movement : MonoBehaviour
         if (trig.gameObject.tag == "HoleSceneChange")
         {
             SceneManager.LoadScene("Spinal Cord");
+        }
+        else if(trig.gameObject.tag == "Boundary")
+        {
+            transform.position = respawnPoint;
+        }
+        else if(trig.gameObject.tag == "AdrenalTeleport")
+        {
+            transform.position = new Vector3(12, 1, 0);
         }
     }
 

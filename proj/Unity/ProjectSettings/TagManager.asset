@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - HoleSceneChange
+  - Boundary
+  - AdrenalTeleport
   layers:
   - Default
   - TransparentFX
