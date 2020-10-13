@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4e4807cead0db41f7bf1689d51e22a7c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - volumeSlider: {fileID: 8978998832017408487, guid: ebc8824dec60742379e59d48cd92f50e, type: 3}
+  - musicSlider: {instanceID: 0}
+  - volumeAudio: {instanceID: 0}
+  - musicAudio: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
