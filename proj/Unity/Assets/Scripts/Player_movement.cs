@@ -62,7 +62,15 @@ public class Player_movement : MonoBehaviour
     {
         if (trig.gameObject.tag == "HoleSceneChange")
         {
-            SceneManager.LoadScene("Spinal Cord");
+            Scene scene = SceneManager.GetActiveScene();
+            if(scene.name == "Main")
+            {
+                SceneManager.LoadScene("Spinal Cord");
+            }
+            else if(scene.name == "Spinal Cord")
+            {
+                SceneManager.LoadScene("AdrenalGlands");
+            }
         }
         else if(trig.gameObject.tag == "Boundary")
         {
