@@ -333,6 +333,7 @@ MonoBehaviour:
   playerSpeed: 10
   playerJumpPower: 1650
   isGrounded: 0
+  respawnPoint: {x: 0, y: 0, z: 0}
 --- !u!114 &645171989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -969,7 +970,7 @@ GameObject:
   - component: {fileID: 2103617231}
   m_Layer: 0
   m_Name: SceneTrigger
-  m_TagString: Untagged
+  m_TagString: HoleSceneChange
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
