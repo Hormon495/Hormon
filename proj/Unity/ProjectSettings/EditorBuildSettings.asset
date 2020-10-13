@@ -5,7 +5,25 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/MainMenu.unity
+    guid: 9f43f90be33a7429b97ecb42a6bae337
+  - enabled: 1
+    path: Assets/Scenes/LevelMenu.unity
+    guid: 26b626115e4ea4eb5a5173d0961d8c18
+  - enabled: 1
+    path: Assets/Scenes/OptionsMenu.unity
+    guid: a77a1d55ea6624bdeb4b8dfd7d418345
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 488f3b399705db24cb5381a6b50b9abb
+  - enabled: 1
+    path: Assets/Scenes/AdrenalGlands.unity
+    guid: 7596e24737864384ca8e82a065bb8383
+  - enabled: 1
+    path: Assets/Scenes/Spinal Cord.unity
+    guid: 71dc224a0a317504c8a294637b3c6e4e
   m_configObjects: {}

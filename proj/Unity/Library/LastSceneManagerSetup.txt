@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/AdrenalGlands.unity
+- path: Assets/Scenes/Spinal Cord.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
