@@ -60,6 +60,7 @@ public class Player_movement : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D trig)
     {
+        Debug.Log("trigger");
         if (trig.gameObject.tag == "HoleSceneChange")
         {
             Scene scene = SceneManager.GetActiveScene();
