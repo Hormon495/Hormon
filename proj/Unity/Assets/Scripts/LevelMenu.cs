@@ -7,7 +7,8 @@ public class LevelMenu : MonoBehaviour {
 
     public void Level1 ()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 2));
     }
 
     public void Level2 ()
@@ -28,6 +29,18 @@ public class LevelMenu : MonoBehaviour {
     public void Level5 ()
     {
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 6);
+    }
+
+    public IEnumerator LoadLevel(int levelIndex)
+    {
+        //Play animation
+        //transition.SetTrigger("Start");
+
+        //Wait
+        yield return new WaitForSeconds(1);
+
+        //Load scene
+        SceneManager.LoadScene(levelIndex);
     }
 
 }
