@@ -1,3 +1,4 @@
+proj/Unity/.vs/*
 proj/Unity/Library/*
 !BuildSettings.asset
 proj/Unity/Logs/*
