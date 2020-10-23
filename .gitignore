@@ -3,3 +3,4 @@ proj/Unity/Library/*
 proj/Unity/Logs/*
 proj/Unity/ProjectSettings/*
 proj/Unity/UserSettings/*
+.DS_Store
