@@ -5,4 +5,5 @@ proj/Unity/Logs/*
 proj/Unity/Packages/*
 proj/Unity/ProjectSettings/*
 proj/Unity/UserSettings/*
+proj/Unity/Temp/*
 .DS_Store
