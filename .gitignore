@@ -2,7 +2,6 @@ proj/Unity/.vs/*
 proj/Unity/Library/*
 !BuildSettings.asset
 proj/Unity/Logs/*
-proj/Unity/Packages/*
 proj/Unity/ProjectSettings/*
 proj/Unity/UserSettings/*
 proj/Unity/Temp/*
