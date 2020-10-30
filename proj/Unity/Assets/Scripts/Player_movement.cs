@@ -40,7 +40,7 @@ public class Player_movement : MonoBehaviour
         //Physics
         gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(moveX * playerSpeed, gameObject.GetComponent<Rigidbody2D>().velocity.y);
     }
-    void Jump() {
+    public void Jump() {
         //Jump Code  
         gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * playerJumpPower);
         isGrounded = false;
