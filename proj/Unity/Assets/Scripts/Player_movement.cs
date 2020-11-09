@@ -8,6 +8,7 @@ public class Player_movement : MonoBehaviour
     public int playerSpeed = 10;
     private bool facingRight = false;
     public int playerJumpPower = 1300;
+    public Vector3 teleport = new Vector3(12, 1, 0);
     private float moveX;
     public bool isGrounded;
     public Vector3 respawnPoint;
@@ -45,25 +46,25 @@ public class Player_movement : MonoBehaviour
         gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * playerJumpPower);
         isGrounded = false;
     }
-    void FlipPlayer() {
+    public void FlipPlayer() {
         facingRight = !facingRight;
         Vector2 localScale = gameObject.transform.localScale;
         localScale.x *= -1;
         transform.localScale = localScale;
     }
-    void OnCollisionEnter2D(Collision2D col) {
+    public void OnCollisionEnter2D(Collision2D col) {
         Debug.Log("Player has collided with " + col.collider.name);
         if (col.gameObject.tag == "Ground") {
             isGrounded = true;
         }
 
     }
-    void OnTriggerEnter2D(Collider2D trig)
+    public void OnTriggerEnter2D(Collider2D trig)
     {
         if (trig.gameObject.tag == "HoleSceneChange")
         {
             Scene scene = SceneManager.GetActiveScene();
-            if(scene.name == "Main")
+            if (scene.name == "Main")
             {
                 SceneManager.LoadScene("Spinal Cord");
             }
@@ -78,7 +79,7 @@ public class Player_movement : MonoBehaviour
         }
         else if(trig.gameObject.tag == "AdrenalTeleport")
         {
-            transform.position = new Vector3(12, 1, 0);
+            transform.position = teleport;
         }
     }
 
