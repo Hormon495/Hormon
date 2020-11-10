@@ -8,3 +8,4 @@ proj/Unity/Temp/*
 .DS_Store
 proj/Unity/Packages/manifest.json
 proj/Unity/Packages/packages-lock.json
+proj/Unity/Assets/Firebase/Plugins/x86_64/*
