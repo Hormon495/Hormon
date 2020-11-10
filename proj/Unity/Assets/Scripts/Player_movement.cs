@@ -72,6 +72,10 @@ public class Player_movement : MonoBehaviour
             {
                 SceneManager.LoadScene("AdrenalGlands");
             }
+            else if(scene.name == "AdrenalGlands")
+            {
+                SceneManager.LoadScene("Liver");
+            }
         }
         else if(trig.gameObject.tag == "DeathBoundary")
         {
