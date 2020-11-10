@@ -55,21 +55,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Tests\BoundaryTests.cs" />
      <Compile Include="Assets\Tests\PlayerMovementTestSuite.cs" />
      <Compile Include="Assets\Tests\AdrenalDeathTestSuite.cs" />
      <Compile Include="Assets\Tests\SceneTestSuite.cs" />
      <None Include="Assets\Tests\Tests.asmdef" />
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -255,7 +256,7 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.5f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

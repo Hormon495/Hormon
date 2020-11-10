@@ -87,7 +87,7 @@ namespace Tests
             for (int i = 0; i < tagsProp.arraySize; i++)
             {
                 t = tagsProp.GetArrayElementAtIndex(i);
-                if (t.stringValue.Equals("Boundary")) { break; }
+                if (t.stringValue.Equals("DeathBoundary")) { break; }
             }
             
             GameObject colliderGameObject = new GameObject();
