@@ -10,7 +10,7 @@ using UnityEngine.UI;
         GameObject[] musicObj = GameObject.FindGameObjectsWithTag("Music");
         if (gameObject != null)
         {
-            if (musicObj.Length > 2)
+            if (musicObj.Length > 1)
             {
                 Destroy(this.gameObject);
             }

@@ -11,6 +11,7 @@ public class MainMenu : MonoBehaviour {
     public static MainMenu Instance;
     public int PlayGameSceneIndex = 1;
     public int OptionsSceneIndex = 2;
+    public int LoginSceneIndex = 3;
 
 
     void Awake()
@@ -25,6 +26,11 @@ public class MainMenu : MonoBehaviour {
         Debug.Log("Play");
     }
 
+    public void Login () 
+    {
+        StartCoroutine(LoadLevel(LoginSceneIndex));
+        Debug.Log("Login");
+    }
 
     public void Options () 
     {

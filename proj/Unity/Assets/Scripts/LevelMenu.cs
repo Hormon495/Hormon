@@ -8,7 +8,7 @@ public class LevelMenu : MonoBehaviour {
     public void Level1 ()
     {
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
-        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 2));
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 3));
     }
 
     public void Level2 ()
