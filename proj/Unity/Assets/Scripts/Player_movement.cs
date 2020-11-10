@@ -12,7 +12,7 @@ public class Player_movement : MonoBehaviour
     private float moveX;
     public bool isGrounded;
     public Vector3 respawnPoint;
-
+    public bool IsTriggered = false;
     void Start()
     {
         respawnPoint = transform.position;
@@ -73,8 +73,9 @@ public class Player_movement : MonoBehaviour
                 SceneManager.LoadScene("AdrenalGlands");
             }
         }
-        else if(trig.gameObject.tag == "Boundary")
+        else if(trig.gameObject.tag == "DeathBoundary")
         {
+            IsTriggered = true;
             transform.position = respawnPoint;
         }
         else if(trig.gameObject.tag == "AdrenalTeleport")
@@ -82,5 +83,4 @@ public class Player_movement : MonoBehaviour
             transform.position = teleport;
         }
     }
-
 }

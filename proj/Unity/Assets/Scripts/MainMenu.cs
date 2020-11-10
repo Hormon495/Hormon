@@ -4,25 +4,33 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-
 public class MainMenu : MonoBehaviour {
 
     //public Animator transition;
 
+    public static MainMenu Instance;
+    public int PlayGameSceneIndex = 1;
+    public int OptionsSceneIndex = 2;
+
+
+    void Awake()
+    {
+        Instance = this;
+    }
+
     public void PlayGame ()
     {
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+    
+        StartCoroutine(LoadLevel(PlayGameSceneIndex));
         Debug.Log("Play");
     }
 
+
     public void Options () 
     {
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
-        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 2));
+        StartCoroutine(LoadLevel(OptionsSceneIndex));
         Debug.Log("Options");
     }
-
 
     public IEnumerator LoadLevel(int levelIndex)
     {

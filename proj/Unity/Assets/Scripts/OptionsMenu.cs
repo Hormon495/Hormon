@@ -5,9 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class OptionsMenu : MonoBehaviour {
 
+    public OptionsMenu Instance;
+
+    void Awake()
+    {
+        Instance = this;
+    }
+
     public void Back ()
     {
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex - 2));
         Debug.Log("Back");
     }

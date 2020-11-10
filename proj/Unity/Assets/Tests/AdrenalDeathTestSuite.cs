@@ -10,26 +10,23 @@ namespace Tests
     public class AdrenalDeathTestSuite
     {
         private Player_movement body;
-
+      
         [SetUp]
         public void Setup()
         {
             GameObject bodyGameObject = MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/Body"));
             body = bodyGameObject.GetComponent<Player_movement>();
-
         }
 
         [TearDown]
         public void Teardown()
         {
             Object.Destroy(body.gameObject);
-
         }
 
         [UnityTest]
         public IEnumerator PlayerMovementDeath()
         {
-
             Vector3 initPos = body.respawnPoint;
 
             var triggerGameObject = new GameObject();
