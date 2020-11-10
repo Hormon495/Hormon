@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "659474069149",
-    "firebase_url": "https://hormon-723e0.firebaseio.com",
-    "project_id": "hormon-723e0",
-    "storage_bucket": "hormon-723e0.appspot.com"
+    "project_number": "409656569993",
+    "firebase_url": "https://hormon-583c7.firebaseio.com",
+    "project_id": "hormon-583c7",
+    "storage_bucket": "hormon-583c7.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:659474069149:android:a6c4b4d94687b48d100674",
+        "mobilesdk_app_id": "1:409656569993:android:a3bfce70114afc9a42d658",
         "android_client_info": {
           "package_name": "com.DefaultCompany.Unity"
         }
       },
       "oauth_client": [
         {
-          "client_id": "659474069149-rikiabd7t8h7qfc7dm3lr9gth06ra0na.apps.googleusercontent.com",
+          "client_id": "409656569993-tgg241elkgd34pvfbbjs1apj639jjkmo.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD9zwTyYs6KTJNkkdpBBPAA_jF-0Z8Fypo"
+          "current_key": "AIzaSyBqaC7QbTA2DpIaDTGZn8Stu0XX5jmwppA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "659474069149-rikiabd7t8h7qfc7dm3lr9gth06ra0na.apps.googleusercontent.com",
+              "client_id": "409656569993-tgg241elkgd34pvfbbjs1apj639jjkmo.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -27,6 +27,8 @@ public class AuthManager : MonoBehaviour
     public TMP_InputField passwordRegisterVerifyField;
     public TMP_Text warningRegisterText;
 
+    int success;
+
     void Awake()
     {
         //Check that all of the necessary dependencies for Firebase are present on the system
@@ -65,6 +67,20 @@ public class AuthManager : MonoBehaviour
         StartCoroutine(Register(emailRegisterField.text, passwordRegisterField.text, usernameRegisterField.text));
     }
 
+        //Function for the login button
+    public int LoginTest(string email, string password)
+    {
+        //Call the login coroutine passing the email and password
+        StartCoroutine(Login(email, password));
+        return success;
+    }
+    //Function for the register button
+    public void RegisterTest(string email, string password, string username)
+    {
+        //Call the register coroutine passing the email, password, and username
+        StartCoroutine(Register(email, password, username));
+    }
+
     private IEnumerator Login(string _email, string _password)
     {
         //Call the Firebase auth signin function passing the email and password
@@ -99,6 +115,7 @@ public class AuthManager : MonoBehaviour
                     break;
             }
             warningLoginText.text = message;
+            success = 0;
         }
         else
         {
@@ -108,6 +125,7 @@ public class AuthManager : MonoBehaviour
             Debug.LogFormat("User signed in successfully: {0} ({1})", User.DisplayName, User.Email);
             warningLoginText.text = "";
             confirmLoginText.text = "Logged In";
+            success = 1;
         }
     }
 
