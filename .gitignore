@@ -6,3 +6,5 @@ proj/Unity/ProjectSettings/*
 proj/Unity/UserSettings/*
 proj/Unity/Temp/*
 .DS_Store
+proj/Unity/Packages/manifest.json
+proj/Unity/Packages/packages-lock.json
