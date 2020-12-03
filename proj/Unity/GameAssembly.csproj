@@ -70,6 +70,8 @@
      <Compile Include="Assets\Scripts\LevelMenu.cs" />
      <Compile Include="Assets\Scripts\MusicPlayerScript.cs" />
      <Compile Include="Assets\Scripts\PlayerScore.cs" />
+     <Compile Include="Assets\Scripts\InputManager.cs" />
+     <Compile Include="Assets\Scripts\TouchButton.cs" />
      <None Include="Assets\Scripts\GameAssembly.asmdef" />
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
