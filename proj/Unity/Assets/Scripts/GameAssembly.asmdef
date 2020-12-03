@@ -16,7 +16,11 @@
         "Firebase.Editor.dll",
         "Firebase.Platform.dll",
         "Firebase.TaskExtension.dll",
-        "Unity.Tasks.dll"
+        "Firebase.Database.dll",
+        "Firebase.Functions.dll",
+        "Firebase.RemoteConfig.dll",
+        "Unity.Tasks.dll",
+        ""
     ],
     "autoReferenced": true,
     "defineConstraints": [

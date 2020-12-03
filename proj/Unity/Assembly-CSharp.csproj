@@ -98,7 +98,6 @@
      <None Include="Assets\TMPro\Shaders\TMP_SDF SSD.shader" />
      <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
      <None Include="Assets\TMPro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
      <None Include="Assets\TMPro\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\TMPro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TMPro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -106,7 +105,6 @@
      <None Include="Assets\TMPro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets\TMPro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TMPro\Shaders\TMPro_Properties.cginc" />
-     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\maven-metadata.xml" />
      <None Include="Assets\TMPro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\TMPro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\TMPro\Shaders\TMP_SDF-Mobile Masking.shader" />
@@ -117,37 +115,31 @@
      <None Include="Assets\TMPro\Shaders\TMP_Sprite.shader" />
      <None Include="Assets\TMPro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Cinemachine">
- <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
- </Reference>
- <Reference Include="com.unity.cinemachine.editor">
- <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -333,25 +325,40 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.App">
- <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
- </Reference>
- <Reference Include="Firebase.Auth">
- <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/PackageCache/com.google.firebase.app@6.16.1/Firebase/Plugins/Firebase.App.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.Platform">
- <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/PackageCache/com.google.firebase.app@6.16.1/Firebase/Plugins/Firebase.Platform.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.TaskExtension">
- <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/PackageCache/com.google.firebase.app@6.16.1/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
  </Reference>
  <Reference Include="Google.MiniJson">
- <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/PackageCache/com.google.firebase.app@6.16.1/Firebase/Plugins/Google.MiniJson.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Compat">
- <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/PackageCache/com.google.firebase.app@6.16.1/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Tasks">
- <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/PackageCache/com.google.firebase.app@6.16.1/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Auth">
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/PackageCache/com.google.firebase.auth@6.16.1/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Database">
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/PackageCache/com.google.firebase.database@6.16.1/Firebase/Plugins/Firebase.Database.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Firestore">
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/PackageCache/com.google.firebase.firestore@6.16.1/Firebase/Plugins/Firebase.Firestore.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Functions">
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/PackageCache/com.google.firebase.functions@6.16.1/Firebase/Plugins/Firebase.Functions.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.RemoteConfig">
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/PackageCache/com.google.firebase.remote-config@6.16.1/Firebase/Plugins/Firebase.RemoteConfig.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Storage">
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/PackageCache/com.google.firebase.storage@6.16.1/Firebase/Plugins/Firebase.Storage.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.5f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
