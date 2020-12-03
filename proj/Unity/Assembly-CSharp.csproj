@@ -137,6 +137,9 @@
  <Reference Include="Unity.Rider.Editor">
  <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="com.unity.cinemachine.editor">
  <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>

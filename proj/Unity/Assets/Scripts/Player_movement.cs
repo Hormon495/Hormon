@@ -86,5 +86,15 @@ public class Player_movement : MonoBehaviour
         {
             transform.position = teleport;
         }
+        else if (trig.gameObject.tag == "DialogueTrigger")
+        {
+            trig.gameObject.GetComponent<DialogueTrigger>().TriggerDialogue();
+            trig.gameObject.GetComponent<BoxCollider2D>().enabled = false;
+            trig.gameObject.GetComponent<BoxCollider2D>().isTrigger = false;
+        }
+        else if (trig.gameObject.tag == "DialogueTriggerRecurring")
+        {
+            trig.gameObject.GetComponent<DialogueTrigger>().TriggerDialogue();
+        }
     }
 }
