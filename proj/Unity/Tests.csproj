@@ -59,6 +59,7 @@
      <Compile Include="Assets\Tests\PlayerMovementTestSuite.cs" />
      <Compile Include="Assets\Tests\AdrenalDeathTestSuite.cs" />
      <Compile Include="Assets\Tests\SceneTestSuite.cs" />
+     <Compile Include="Assets\Tests\TouchButtonTestSuite.cs" />
      <None Include="Assets\Tests\Tests.asmdef" />
  <Reference Include="UnityEngine.TestRunner">
  <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
