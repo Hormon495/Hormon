@@ -58,7 +58,9 @@
      <Compile Include="Assets\Scripts\TeleportBehavior.cs" />
      <Compile Include="Assets\Scripts\DialogueTrigger.cs" />
      <Compile Include="Assets\Scripts\LevelLoader.cs" />
+     <Compile Include="Assets\Scripts\TouchButton.cs" />
      <Compile Include="Assets\Scripts\HypothalamusBehavior.cs" />
+     <Compile Include="Assets\Scripts\InputManager.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\AudioManager.cs" />
      <Compile Include="Assets\Scripts\OptionsMenu.cs" />

@@ -623,6 +623,7 @@ MonoBehaviour:
   leftButton: {fileID: 410967615}
   rightButton: {fileID: 329603628}
   jumpButton: {fileID: 706987906}
+  enterButton: {fileID: 0}
 --- !u!114 &645171987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1078,7 +1079,7 @@ PrefabInstance:
     - target: {fileID: 2981080269811248200, guid: 2478518dc1c46704aa45501de9ed9b78,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -110
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 2981080269811248200, guid: 2478518dc1c46704aa45501de9ed9b78,
         type: 3}

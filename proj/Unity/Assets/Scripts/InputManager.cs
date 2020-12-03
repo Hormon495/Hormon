@@ -7,6 +7,7 @@ public class InputManager : MonoBehaviour
     [SerializeField] TouchButton leftButton;
     [SerializeField] TouchButton rightButton;
     [SerializeField] TouchButton jumpButton;
+    [SerializeField] TouchButton enterButton;
 
     public enum ButtonState
     {
@@ -16,7 +17,7 @@ public class InputManager : MonoBehaviour
         Held
     }
 
-    public Vector2 CurrentInput
+    public Vector3 CurrentInput
     {
         get
         {
