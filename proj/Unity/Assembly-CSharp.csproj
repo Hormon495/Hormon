@@ -325,6 +325,7 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.App">
+<<<<<<< Updated upstream
  <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/PackageCache/com.google.firebase.app@6.16.1/Firebase/Plugins/Firebase.App.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.Platform">
@@ -359,6 +360,27 @@
  </Reference>
  <Reference Include="Firebase.Storage">
  <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/PackageCache/com.google.firebase.storage@6.16.1/Firebase/Plugins/Firebase.Storage.dll</HintPath>
+=======
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/PackageCache/com.google.firebase.app@7.0.0/Firebase/Plugins/Firebase.App.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Platform">
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/PackageCache/com.google.firebase.app@7.0.0/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Tasks">
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/PackageCache/com.google.firebase.app@7.0.0/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.MiniJson">
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/PackageCache/com.google.firebase.app@7.0.0/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Auth">
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/PackageCache/com.google.firebase.auth@7.0.0/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Compat">
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/PackageCache/com.google.firebase.app@7.0.0/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.TaskExtension">
+ <HintPath>C:/Users/Caleb/Documents/GitHub/Hormon/proj/Unity/Library/PackageCache/com.google.firebase.app@7.0.0/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
+>>>>>>> Stashed changes
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.5f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

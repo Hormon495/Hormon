@@ -6,6 +6,7 @@
       "source": "registry",
       "dependencies": {},
       "url": "https://unityregistry-pa.googleapis.com"
+<<<<<<< Updated upstream
     },
     "com.google.firebase.app": {
       "version": "6.16.1",
@@ -67,6 +68,24 @@
       "source": "registry",
       "dependencies": {
         "com.google.firebase.auth": "6.16.1"
+=======
+    },
+    "com.google.firebase.app": {
+      "version": "7.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.161"
+      },
+      "url": "https://unityregistry-pa.googleapis.com"
+    },
+    "com.google.firebase.auth": {
+      "version": "7.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.google.firebase.app": "7.0.0"
+>>>>>>> Stashed changes
       },
       "url": "https://unityregistry-pa.googleapis.com"
     },
