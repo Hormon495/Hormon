@@ -55,23 +55,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\TeleportBehavior.cs" />
+     <Compile Include="Assets\Scripts\DialogueTrigger.cs" />
      <Compile Include="Assets\Scripts\LevelLoader.cs" />
+     <Compile Include="Assets\Scripts\HypothalamusBehavior.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\AudioManager.cs" />
      <Compile Include="Assets\Scripts\OptionsMenu.cs" />
      <Compile Include="Assets\Scripts\Player_movement.cs" />
+     <Compile Include="Assets\Scripts\MachineBehavior.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\ChestBehavior.cs" />
+     <Compile Include="Assets\Scripts\SwitchBehavior.cs" />
      <Compile Include="Assets\Scripts\Player_Health.cs" />
      <Compile Include="Assets\Scripts\EnemyMove.cs" />
      <Compile Include="Assets\Scripts\UIManager.cs" />
      <Compile Include="Assets\Scripts\MusicManager.cs" />
+     <Compile Include="Assets\Scripts\ExitBehavior.cs" />
      <Compile Include="Assets\Scripts\AuthManager.cs" />
+     <Compile Include="Assets\Scripts\Mailbox.cs" />
      <Compile Include="Assets\Scripts\CameraSystem.cs" />
      <Compile Include="Assets\Scripts\LevelMenu.cs" />
+     <Compile Include="Assets\Scripts\Dialogue.cs" />
      <Compile Include="Assets\Scripts\MusicPlayerScript.cs" />
      <Compile Include="Assets\Scripts\PlayerScore.cs" />
-     <Compile Include="Assets\Scripts\InputManager.cs" />
-     <Compile Include="Assets\Scripts\TouchButton.cs" />
+     <Compile Include="Assets\Scripts\DialogueManager.cs" />
+     <Compile Include="Assets\Scripts\PituitaryBehavior.cs" />
      <None Include="Assets\Scripts\GameAssembly.asmdef" />
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Users/catko/Desktop/College/2020 FALL/CS 495/Hormon/proj/Unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
