@@ -17,7 +17,7 @@ public class InputManager : MonoBehaviour
         Held
     }
 
-    public Vector3 CurrentInput
+    public Vector2 CurrentInput
     {
         get
         {

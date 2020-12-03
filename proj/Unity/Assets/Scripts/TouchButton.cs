@@ -3,8 +3,8 @@ using UnityEngine.UI;
 
 public class TouchButton : MonoBehaviour
 {
-    bool pressedDown;
-    bool pressedLastFrame;
+    public bool pressedDown;
+    public bool pressedLastFrame;
 
     public InputManager.ButtonState CurrentState;
 
