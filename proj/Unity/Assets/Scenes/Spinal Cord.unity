@@ -753,7 +753,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 0a6fbfb8eda4e574d9f147b94d2acc68, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1267,11 +1267,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2981080271399937972, guid: 2478518dc1c46704aa45501de9ed9b78, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -485
       objectReference: {fileID: 0}
     - target: {fileID: 2981080271399937972, guid: 2478518dc1c46704aa45501de9ed9b78, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -45
       objectReference: {fileID: 0}
     - target: {fileID: 2981080271399937972, guid: 2478518dc1c46704aa45501de9ed9b78, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1283,7 +1283,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2981080271399937972, guid: 2478518dc1c46704aa45501de9ed9b78, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2981080271399937972, guid: 2478518dc1c46704aa45501de9ed9b78, type: 3}
       propertyPath: m_AnchorMin.y
@@ -1291,7 +1291,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2981080271399937972, guid: 2478518dc1c46704aa45501de9ed9b78, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2981080271399937972, guid: 2478518dc1c46704aa45501de9ed9b78, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1299,7 +1299,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2981080271399937972, guid: 2478518dc1c46704aa45501de9ed9b78, type: 3}
       propertyPath: m_Pivot.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2981080271399937972, guid: 2478518dc1c46704aa45501de9ed9b78, type: 3}
       propertyPath: m_Pivot.y
@@ -1717,11 +1717,11 @@ RectTransform:
   m_Father: {fileID: 596829794}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -458, y: 215.2}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 2, y: -2}
   m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 1}
 --- !u!114 &1297898021
 MonoBehaviour:
   m_ObjectHideFlags: 0

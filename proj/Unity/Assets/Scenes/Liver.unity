@@ -505,7 +505,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2981080271399937972, guid: 2478518dc1c46704aa45501de9ed9b78, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -476
       objectReference: {fileID: 0}
     - target: {fileID: 2981080271399937972, guid: 2478518dc1c46704aa45501de9ed9b78, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -521,7 +521,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2981080271399937972, guid: 2478518dc1c46704aa45501de9ed9b78, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2981080271399937972, guid: 2478518dc1c46704aa45501de9ed9b78, type: 3}
       propertyPath: m_AnchorMin.y
@@ -529,7 +529,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2981080271399937972, guid: 2478518dc1c46704aa45501de9ed9b78, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2981080271399937972, guid: 2478518dc1c46704aa45501de9ed9b78, type: 3}
       propertyPath: m_AnchorMax.y
@@ -537,7 +537,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2981080271399937972, guid: 2478518dc1c46704aa45501de9ed9b78, type: 3}
       propertyPath: m_Pivot.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2981080271399937972, guid: 2478518dc1c46704aa45501de9ed9b78, type: 3}
       propertyPath: m_Pivot.y
@@ -742,11 +742,11 @@ RectTransform:
   m_Father: {fileID: 1132834918}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -456, y: 211.1}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1, y: -3}
   m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 1}
 --- !u!114 &508787773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -830,7 +830,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 25.292252, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2356,6 +2356,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5271460564313953099, guid: 9b2c9af28fa92bf4cb7c1c1fde0a2434, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5271460564313953100, guid: 9b2c9af28fa92bf4cb7c1c1fde0a2434, type: 3}
       propertyPath: leftButton
       value: 
