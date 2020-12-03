@@ -1,14 +1,9 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 using Firebase;
 using Firebase.Auth;
-<<<<<<< Updated upstream
 using Firebase.Database;
 using Firebase.Unity.Editor;
-=======
-//using Firebase.Database;
-//using Firebase.Unity.Editor;
->>>>>>> Stashed changes
 using TMPro;
 using System;
 
@@ -22,11 +17,7 @@ public class PlayerScore : MonoBehaviour
 
     void Start() {
         // Get the root reference location of the database.
-<<<<<<< Updated upstream
         DatabaseReference reference = FirebaseDatabase.DefaultInstance.RootReference;
-=======
-        //DatabaseReference reference = FirebaseDatabase.DefaultInstance.RootReference;
->>>>>>> Stashed changes
     }
 
     void Update () {
